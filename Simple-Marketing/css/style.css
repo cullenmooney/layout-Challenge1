@@ -1,0 +1,57 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+header, div, footer {
+	background-color: #D3D3D3;
+}
+
+header {
+	height: 75px;
+}
+div {
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+
+#left {
+	float: left;
+	width: 49%;
+	height: 300px;
+}
+
+#right {
+	float:right;
+	width: 49%;
+	height: 300px;
+}
+
+#bottomLeft {
+	float: left;
+	width: 31%;
+	height: 200px;
+	margin-top: 0;
+}
+
+#bottomCenter {
+	float: left;
+	width: 31%;
+	height: 200px;
+	margin-left: 3.5%;
+	margin-top: 0;
+}
+
+#bottomRight {
+	float: right;
+	width: 31%;
+	height: 200px;
+	margin-top: 0;
+}
+
+footer {
+	height: 75px;
+	clear: both;
+}
